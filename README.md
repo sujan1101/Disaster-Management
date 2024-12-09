@@ -1,68 +1,90 @@
-# BLOCKCHAIN POWERED SOLUTIONS FOR LANDSLIDES AND DISASTER MANAGEMENT
-* Implemented a DApp to create a platform for Disaster Management.
+-------------------------------------------------------------------------
+# Disaster Safety Web Application
+-------------------------------------------------------------------------
+INSTRUCTIONS TO RUN THE APPLICATION
+-------------------------------------------------------------------------
+      export FLASK_APP=application.py
+      export FLASK_ENV=development
+      flask run
 
-# TEAM
-* NAMAN MANCHANDA         - https://www.linkedin.com/in/naman-manchanda-1b0948144/
-* KUSHAL SETH             - https://www.linkedin.com/in/sethkushal/
-* POOJA SARIN             - https://www.linkedin.com/in/sarinpooja/
-* ABHAY CHATURVEDI        - <<Will update the links of team members, once they share >>
+-------------------------------------------------------------------------
+BASIC IDEA
+-------------------------------------------------------------------------
 
-# GitHub Page
-  https://github.com/namanmanchanda09/DisasterManagement
- 
-# Youtube Link for Video Demonstration
-  https://www.youtube.com/watch?v=wUYhxBvqYy8
+The basic idea of the android application we are going to make is that 
+users will be able to get notifications at the time of any calamity like
+earthquakes, floods and hurricanes by getting alerts from anyone who gets
+to know of the calamity quickly by getting a notification in the form of
+images posted online or any common text broadcasts according to their 
+location.In addition to this , in the case of earthquake, our application
+will make use of the gyroscopic sensor and accelerometer of the smartphone of the user according
+to the time duration of random vibrations sensed in a continuous period of time.
+Once the user is informed of the calamity, the user follows the emergency steps to be 
+taken during the time of the calamity.We also incorporate government agencies 
+to notify in case of a hurricane or flood beforehand through the application 
+and also provide various fast access emergency numbers in the application.
+Our idea stems from the fact that when a calamity comes, it is the people near 
+the calamity area that get notified of the calamity first, not the news channels, so 
+therefore through the means of the common people we notify all others in the 
+surrounding areas to act accordingly.We also take help from the government 
+agencies who can create a special account in our application to specifically
+notify in case of an incoming danger.    
 
-# PowerPoint Presentation
-  https://www.slideshare.net/KushalSeth2/nasa-chain
+In all, the alertness and conciousness of the people and government agencies 
+near the calamity area can help to broadcast the calamities like hurricanes and
+floods while earthquakes can also be known of by the same alongwith the help of the 
+gyroscopic sensor and accelerometer in a smartphone.
+   
+----------------------------------------------------------------------------------
+DETAILS
+----------------------------------------------------------------------------------
 
-# Inspiration:
-* Space Apps 2018
-    - http://www.spaceappindia.org
-    - https://2018.spaceappschallenge.org/
-    - https://twitter.com/spaceapps?lang=en
+### EARTHQUAKE
 
-[Build at pre-hackathon: https://jimsindia.org/hackathon/]
+  - Our application will take help of the gyroscopic and various required sensors of the
+    smartphone to sense a randomized set of vibrations for a abnormally long period of time like
+    3-4 seconds and then accordingly notify the user of the earthquake.
+    
+  - The application then gives all the precautions to be taken by the user during the time of the 
+    calamity like:-
+    
+            --Vacate to an open area alongwith anyone who is surrounding you.
+            
+            --Call government emergency numbers like ambulance, fire brigade,etc.
+            
+            --Call and warn dear ones who may be near you.
+### FLOOD
 
-# What it does:
-* Used ML algorithm along with NASA data to predict if a person is safe or not 
-* Increases collaboration between different legal entities.
-* In Case of disaster, it enable the organisations to manage the help that they are providing.
-* Reduces delays in services.
-* No middle party
-* Tries to guarantee the resources are actually available to the people
-* Helps to settle Insurance claims in case of Disaster.
+  - Our application will take help of the people around the flood area to notify them either by taking 
+    images or by broadcasting alerts to the nearby people to take precautionary measures and also to 
+    notify the people and government to unblock/open as many possible draining or sewage systems as 
+    possible.
+    
+  - The application then gives all the precautions to be taken by the user during the time of the 
+    calamity like:- 
+    
+            --Vacate to places where water cannot stay easily like high rise buildings or open fields.
+            
+            --Call government emergency numbers like ambulance, etc.
+            
+            --Call and warn dear ones who may be near you.
+            
+            --Open as many unclosed sewage and drainage systems as possible in the surrounding area.
+            
+            --Wear air jackets so that no one drowns.
+            
+### HURRICANE
 
-# STEPS to Install / Setup
-1) Clone the repositories https://github.com/KushalGH/blockchain_disastermanagement using following command
-git clone https://github.com/KushalGH/blockchain_disastermanagement
-2) do run "npm install" command to ensure node packages are up-to-date & in sync
-3) Ensure you have "Ganache" & It is running status
-4) Ensure you have "MetaMask" extensions added into chrome & enabled custom RPC to sync the accounts with Ganache
-5) Using below command to deploy the contract into Ganache
-   truffle migrate --network ganache --compile-all --reset
-6) Once it is migrated successfully, run below command to launch the server
-   npm run dev
-
-
-# Implementation:
-* Developed using Solidity and web3.js
-  * used node.js, web3 and solc compiler
-  * used Remix for contract testing
-  * Used truffle framework in order to the ease developement process
-* Testing of smart contracts was done on 
-  * Ganache (Private Local Blockchain)
-* Testing was done using javascript instead of a solidity contract creation way.
-* Javascript testing method used the Mocha framework
-  
-# Build With:
-* Solidity,IPFS, MetaMask, Web3js, Truffle, Ganache, Shell script, EVM Framework. JQuery, 
-
-# Future Enhancements:
-* Will be using advanced machine learning algorithms to increase the predictions of Landslides in the areas.
-* Updating the Smart Contract, as of now it's a very basic smart contract.
-* Actual Implementation
-
-
-
+  - Our application will take help of the government agencies and common people near the calamity area 
+    to notify them in case of incoming hurricane situations.
+  - The application then gives all the precautions to be taken by the user during the time of the 
+    calamity like:-
+    
+            --Vacate to a building alongwith anyone who is surrounding you.
+            
+            --Call government emergency numbers like ambulance, fire brigade,etc.
+            
+            --Call and warn dear ones who may be near you.
+            
+------------------------------------------------------------------------------------------------------------
 
